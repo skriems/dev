@@ -1,0 +1,15 @@
+[package]
+name = "tokio-producer"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.22"
+clap = { version = "3.2.22", features = ["derive"] }
+env_logger = "0.9.1"
+log = "0.4.17"
+rdkafka = { version = "0.25.0", features = ["ssl", "cmake-build"] }
+tokio = { version = "1", features = ["full"] }

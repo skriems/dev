@@ -1,0 +1,12 @@
+[package]
+name = "lib"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+async-std = { workspace = true }
+chrono = "0.4.22"
+env_logger = "0.9.1"
+log = { workspace = true }
+rdkafka = { workspace = true }

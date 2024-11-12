@@ -1,0 +1,13 @@
+[package]
+name = "tokio-consumer"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+clap = { workspace = true }
+lib = { path = "../lib" }
+futures = { workspace = true }
+log = { workspace = true }
+rdkafka = { workspace = true }
+tokio = { workspace = true }
